@@ -44,4 +44,5 @@ public class MoneyMock {
         assertEquals(moneyStack.sum(), 6000);
         verify(mockMoney4k, times(2)).getAmount();
     }
+
 }
